@@ -26,12 +26,4 @@ class CommonUtils{
     return value;
   }
 
-
-
-   String getFormatedAmount(int amount){
-
-  }
-
-
-
 }

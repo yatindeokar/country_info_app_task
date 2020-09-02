@@ -49,18 +49,14 @@ class CountryListProvider extends ChangeNotifier{
 
 
   void _showDialog(BuildContext context, String region) {
-    // flutter defined function
     showDialog(
       context: context,
       barrierDismissible: false,
       builder: (BuildContext context) {
-        // return object of type Dialog
         return AlertDialog(
           title: new Text("Error"),
           content: new Text("Please Connect to Internet and try again."),
           actions: <Widget>[
-            // usually buttons at the bottom of the dialog
-
             new FlatButton(
               child: new Text("Cancel"),
               onPressed: () {

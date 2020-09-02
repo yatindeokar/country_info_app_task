@@ -14,7 +14,6 @@ class CountryDetailsPage extends StatelessWidget{
   CountryDetailsPage({@required this.countries});
 
 
-
   @override
   Widget build(BuildContext context) {
 
@@ -49,7 +48,6 @@ class CountryDetailsPage extends StatelessWidget{
                   mainAxisSize: MainAxisSize.min,
                   children: [
 
-
                     Card(
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
@@ -81,8 +79,7 @@ class CountryDetailsPage extends StatelessWidget{
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
 
-                                  Text(countries.name + " (${countries.alpha3Code})", maxLines: 2, overflow: TextOverflow.ellipsis, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
-
+                                  Text("${countries.name}" + " (${countries.alpha3Code})", maxLines: 2, overflow: TextOverflow.ellipsis, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
 
                                   SizedBox(height: 5,),
 
@@ -99,8 +96,6 @@ class CountryDetailsPage extends StatelessWidget{
                   ],
                 ),
               ),
-
-
 
               Padding(
                 padding: const EdgeInsets.all(20),

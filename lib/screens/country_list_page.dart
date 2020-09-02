@@ -28,7 +28,7 @@ class CountryListPage extends StatelessWidget{
       ),
       body:  Consumer<CountryListProvider>(builder: (_, provider, child) {
 
-        if(provider.getCountryModule != null && provider.getCountryModule.countries.isNotEmpty)
+        if(provider.getCountryModule != null && provider.getCountryModule.countries != null && provider.getCountryModule.countries.isNotEmpty)
         return AnimationLimiter(
           child: ListView.builder(
               itemCount: provider.getCountryModule.countries.length,

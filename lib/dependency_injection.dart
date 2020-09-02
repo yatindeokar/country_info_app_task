@@ -12,7 +12,6 @@ void setUpDependencyInjection(){
 }
 
 
-//TODO:write reset DI logic on switch of account by user
 void resetDependencyInjection(){
   // dependencyInjection.reset();
   dependencyInjection.registerSingleton<CountryListProvider>(CountryListProvider());
