@@ -1,7 +1,7 @@
 
 
 
-import 'package:country_info_app/region_module.dart';
+import 'package:country_info_app/modules/region_module.dart';
 import 'package:flutter/material.dart';
 
 class CommonUtils{

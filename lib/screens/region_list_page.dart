@@ -1,10 +1,10 @@
 
 
 
-import 'package:country_info_app/country_details_page.dart';
-import 'package:country_info_app/country_list_page.dart';
+import 'package:country_info_app/screens/country_details_page.dart';
+import 'package:country_info_app/screens/country_list_page.dart';
 import 'package:country_info_app/country_list_provider.dart';
-import 'package:country_info_app/region_module.dart';
+import 'package:country_info_app/modules/region_module.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';

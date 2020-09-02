@@ -1,16 +1,16 @@
 
 
-import 'package:country_info_app/api_client.dart';
-import 'package:country_info_app/country_details_page.dart';
-import 'package:country_info_app/country_module.dart';
-import 'package:country_info_app/region_module.dart';
+import 'package:country_info_app/api/api_client.dart';
+import 'package:country_info_app/screens/country_details_page.dart';
+import 'package:country_info_app/modules/country_module.dart';
+import 'package:country_info_app/modules/region_module.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 
-import 'country_list_provider.dart';
+import '../country_list_provider.dart';
 
 class CountryListPage extends StatelessWidget{
 

@@ -1,7 +1,7 @@
 
 import 'dart:convert';
 
-import 'package:country_info_app/country_module.dart';
+import 'package:country_info_app/modules/country_module.dart';
 import 'package:http/http.dart' as http;
 
 class ApiClient {

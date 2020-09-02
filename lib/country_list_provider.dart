@@ -1,10 +1,10 @@
 
 
 
-import 'package:country_info_app/api_client.dart';
-import 'package:country_info_app/common_utils.dart';
-import 'package:country_info_app/country_module.dart';
-import 'package:country_info_app/region_module.dart';
+import 'package:country_info_app/api/api_client.dart';
+import 'package:country_info_app/common_utils/common_utils.dart';
+import 'package:country_info_app/modules/country_module.dart';
+import 'package:country_info_app/modules/region_module.dart';
 import 'package:flutter/material.dart';
 
 class CountryListProvider extends ChangeNotifier{

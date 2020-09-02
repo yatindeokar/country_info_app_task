@@ -1,7 +1,7 @@
 
 
-import 'package:country_info_app/common_utils.dart';
-import 'package:country_info_app/country_module.dart';
+import 'package:country_info_app/common_utils/common_utils.dart';
+import 'package:country_info_app/modules/country_module.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
